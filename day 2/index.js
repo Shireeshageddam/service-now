@@ -1,8 +1,9 @@
-let msg ="hello"
-let completeMsg=msg+str1;
+let msg ="hello";
+let str1="siri";
+let completeMsg=msg + str1;
 console.log(completeMsg);
 
-let str1="siri"
+
 let str2=`hello,${str1}`;
 
 
@@ -23,8 +24,8 @@ a=10;
 console.log(a)//10
 
 
-console.log("10" + "40");   // 1040
-console.log(6 - 5);     //1 
+console.log(10 + "40");   // 1040
+console.log(6 - "5");  //1 
 console.log("Rohan" + "Rao");  // Rohan Rao
 console.log(" "+"0");         // 0
 console.log("Ramesh" - "Rao");   // NaN
